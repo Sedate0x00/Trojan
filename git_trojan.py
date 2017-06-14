@@ -26,9 +26,9 @@ task_queue = Queue.Queue()
 #认证用户 连接github
 def connect_to_github():
     #获取用户
-    gh = login(username='859009360@qq.com',password='sedate1119..')
+    gh = login(username='859009360@qq.com',password='******')
     #获取项目
-    repo = gh.repository('Sedateman','chapter7')
+    repo = gh.repository('Sedate0x00','trojan')
     #获取分支
     branch = repo.branch('master')
     return gh,repo,branch
